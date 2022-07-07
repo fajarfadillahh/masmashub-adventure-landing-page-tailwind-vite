@@ -133,3 +133,29 @@
 .team__content-profession {
   @apply text-[15px] text-grey;
 }
+
+/* ===== PRICING SECTION ===== */
+.pricing__group {
+  @apply flex flex-wrap justify-center items-start gap-12;
+}
+.pricing__content {
+  @apply w-[300px] grid gap-8 text-center py-16 px-8 ring-2 ring-[rgba(0,0,0,0.05)] rounded-[2rem] transition-all duration-300 hover:bg-orange hover:ring-orange hover:-translate-y-1;
+}
+.pricing__content-img {
+  @apply justify-self-center;
+}
+.pricing__content-data {
+  @apply grid gap-4;
+}
+.pricing__content-title {
+  @apply text-[32px] text-black font-bold group-hover:text-white;
+}
+.pricing__content-price {
+  @apply text-[20px] text-orange font-medium group-hover:text-white;
+}
+.pricing__content-number {
+  @apply text-[42px] font-bold;
+}
+.pricing__content-text {
+  @apply text-[15px] text-grey leading-text group-hover:text-white;
+}
