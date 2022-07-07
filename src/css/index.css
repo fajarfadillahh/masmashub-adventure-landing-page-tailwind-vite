@@ -119,3 +119,17 @@
 .testimonial__container .swiper-pagination-bullet-active {
   @apply w-[2rem] h-[10px] bg-orange rounded-full;
 }
+
+/* ===== TEAM SECTION ===== */
+.team__group {
+  @apply flex flex-wrap justify-center items-start gap-12;
+}
+.team__content {
+  @apply w-[300px] grid gap-4;
+}
+.team__content-name {
+  @apply text-[20px] text-black font-bold mb-2;
+}
+.team__content-profession {
+  @apply text-[15px] text-grey;
+}
