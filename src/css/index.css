@@ -85,3 +85,37 @@
 .features__item-text {
   @apply text-[15px] text-white leading-text;
 }
+
+/* ===== TESTIMONIAL SECTION ===== */
+.testimonial__content {
+  @apply grid gap-8 p-8 bg-white ring-2 ring-[rgba(0,0,0,0.05)] rounded-[2rem] transition-all duration-300;
+}
+.testimonial__content-comment {
+  @apply text-[15px] text-black font-medium leading-text;
+}
+.testimonial__content-profile {
+  @apply flex items-center gap-3;
+}
+.testimonial__content-img {
+  @apply w-[55px];
+}
+.testimonial__content-name {
+  @apply text-[17px] text-black font-semibold mb-2;
+}
+.testimonial__content-profession {
+  @apply text-[15px] text-grey;
+}
+/* swiper active */
+.testimonial__content.swiper-slide-active {
+  @apply ring-white shadow-[0_8px_24px_rgba(0,0,0,0.1)];
+}
+/* swiper pagination */
+.testimonial__container .swiper-pagination {
+  position: initial;
+}
+.testimonial__container .swiper-pagination-bullet {
+  @apply w-[10px] h-[10px] bg-[rgba(0,0,0,0.3)] transition-all duration-300;
+}
+.testimonial__container .swiper-pagination-bullet-active {
+  @apply w-[2rem] h-[10px] bg-orange rounded-full;
+}
