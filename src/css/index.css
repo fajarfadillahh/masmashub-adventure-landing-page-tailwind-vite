@@ -71,3 +71,17 @@
 .instructure__content-text {
   @apply text-[15px] text-grey leading-text;
 }
+
+/* ===== FEATURES SECTION ===== */
+.features__content {
+  @apply grid grid-cols-[repeat(auto-fit,minmax(230px,0.8fr))] justify-center gap-12;
+}
+.features__item-icon {
+  @apply w-[65px] mb-4;
+}
+.features__item-title {
+  @apply text-[20px] text-white font-bold mb-4;
+}
+.features__item-text {
+  @apply text-[15px] text-white leading-text;
+}
