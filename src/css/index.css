@@ -46,3 +46,11 @@
 .header__menu.show-menu {
   @apply scale-y-100 opacity-100;
 }
+
+/* ===== PARTNER SECTION ===== */
+.partner__group {
+  @apply grid grid-cols-[repeat(2,max-content)] gap-x-8 gap-y-12 justify-center items-center;
+}
+.partner__img {
+  @apply w-[130px];
+}
