@@ -54,3 +54,20 @@
 .partner__img {
   @apply w-[130px];
 }
+
+/* ===== INSTRUCTURE SECTION ===== */
+.instructure__group {
+  @apply flex flex-wrap justify-center items-start gap-16;
+}
+.instructure__content {
+  @apply w-[300px] grid gap-8 text-center;
+}
+.instructure__content-number {
+  @apply inline-flex justify-center items-center w-[65px] h-[65px] bg-orange rounded-[50%] border-[12px] border-solid border-white shadow-[0_0_4px_#ff6100] text-[20px] text-white font-bold mb-4;
+}
+.instructure__content-title {
+  @apply text-[20px] text-black font-bold mb-4;
+}
+.instructure__content-text {
+  @apply text-[15px] text-grey leading-text;
+}
