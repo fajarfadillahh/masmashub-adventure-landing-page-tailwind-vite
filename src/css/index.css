@@ -159,3 +159,38 @@
 .pricing__content-text {
   @apply text-[15px] text-grey leading-text group-hover:text-white;
 }
+
+/* ===== FAQ SECTION ===== */
+.faq__accordion {
+  @apply grid gap-6;
+}
+.faq__accordion-item {
+  @apply bg-[rgba(255,97,0,0.05)] rounded-[1rem] transition-all duration-300;
+}
+.faq__accordion-header {
+  @apply flex justify-between items-center p-6 cursor-pointer;
+}
+.faq__accordion-title {
+  @apply text-[17px] text-black font-semibold transition-all duration-300;
+}
+.faq__accordion-icon {
+  @apply inline-flex text-[1.8rem] text-black transition-all duration-300;
+}
+.faq__accordion-content {
+  @apply overflow-hidden h-0 transition-all duration-300;
+}
+.faq__accordion-text {
+  @apply text-[15px] text-grey leading-text px-6 pb-6 transition-all duration-300;
+}
+/* accordion open */
+.accordion-open.faq__accordion-item {
+  @apply bg-orange;
+}
+.accordion-open .faq__accordion-title,
+.accordion-open .faq__accordion-icon,
+.accordion-open .faq__accordion-text {
+  @apply text-white;
+}
+.accordion-open .faq__accordion-icon {
+  @apply rotate-180;
+}
