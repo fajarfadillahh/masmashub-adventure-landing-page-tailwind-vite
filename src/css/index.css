@@ -194,3 +194,26 @@
 .accordion-open .faq__accordion-icon {
   @apply rotate-180;
 }
+
+/* ===== FOOTER SECTION ===== */
+.footer__group {
+  @apply grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-12;
+}
+.footer__content-title {
+  @apply text-[20px] text-black font-semibold mb-6;
+}
+.footer__content-list {
+  @apply flex flex-col gap-3;
+}
+.footer__content:nth-child(4) .footer__content-list {
+  @apply flex-row;
+}
+.footer__content-link {
+  @apply text-[15px] text-grey hover:underline hover:text-orange;
+}
+.footer__content-icon {
+  @apply inline-flex p-1 rounded-full bg-transparent text-[1.3em] text-black transition-all duration-300 hover:bg-orange hover:text-white;
+}
+.footer__copy {
+  @apply pt-8 text-[15px] text-grey text-center leading-text border-t-2 border-solid border-grey border-opacity-10;
+}
