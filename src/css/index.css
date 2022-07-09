@@ -42,6 +42,10 @@
 .header__link.active-link {
   @apply font-medium text-orange;
 }
+/* sticky header */
+header.sticky-action {
+  @apply shadow-[0_4px_12px_rgba(0,0,0,0.1)];
+}
 /* show menu */
 .header__menu.show-menu {
   @apply scale-y-100 opacity-100;
