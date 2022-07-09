@@ -247,3 +247,24 @@ header.sticky-action {
     @apply w-[150px];
   }
 }
+
+/* width 640px */
+@screen sm {
+  .section-title {
+    @apply text-[36px];
+  }
+
+  .instructure__content-title,
+  .features__item-title {
+    @apply text-[24px];
+  }
+
+  .callback__data,
+  .callback__img {
+    @apply w-[400px];
+  }
+
+  .callback__button {
+    @apply inline-flex;
+  }
+}
