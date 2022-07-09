@@ -226,3 +226,24 @@ header.sticky-action {
 .scrollup.scroll-action {
   @apply bottom-12;
 }
+
+/* ==== MEDIA QUERIES ===== */
+/* width 480px */
+@screen xs {
+  .home__data,
+  .features__data,
+  .faq__data,
+  .newsletter__data,
+  .newsletter__form {
+    @apply w-[400px];
+  }
+
+  .home__img,
+  .features__img {
+    @apply w-[400px];
+  }
+
+  .partner__img {
+    @apply w-[150px];
+  }
+}
