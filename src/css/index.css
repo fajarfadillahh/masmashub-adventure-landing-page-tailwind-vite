@@ -221,3 +221,8 @@ header.sticky-action {
 .footer__copy {
   @apply pt-8 text-[15px] text-grey text-center leading-text border-t-2 border-solid border-grey border-opacity-10;
 }
+
+/* ===== SCROLLUP SECTION ===== */
+.scrollup.scroll-action {
+  @apply bottom-12;
+}
