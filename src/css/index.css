@@ -425,3 +425,11 @@ header.sticky-action {
     @apply justify-self-center;
   }
 }
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar {
+  @apply w-[8px] bg-[rgba(0,0,0,0.1)];
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-[rgba(0,0,0,0.2)] rounded-full hover:bg-[rgba(0,0,0,0.3)];
+}
